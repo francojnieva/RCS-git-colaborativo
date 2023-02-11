@@ -1,13 +1,57 @@
-body {
-    max-width: 100vw;
-    background-color: rgb(250, 170, 170);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
-ul {
-    list-style-type: circle;
-    font-size: 36px;
+.section_contact {
+    display: flex;
+    justify-content: center;
 }
-li {
-    font-size: 20px;
-    color: rgb(50, 5, 5);
+
+.section_contact form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0rem;
+}
+
+.section_contact form h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.section_contact form input, textarea {
+    width: 65%;
+    margin-bottom: 1rem;
+    padding: .6rem;
+    border: none;
+    outline: none;
+    resize: none;
+    border-radius: .2rem;
+    background-color: #f1f1f1;
+    font-size: 1rem;
+    transition: .2s;
+}
+
+.section_contact input:focus {
+    box-shadow: 0 0 5px 1px rgb(243, 51, 51);
+}
+
+.section_contact textarea:focus {
+    box-shadow: 0 0 5px 1px rgb(243, 51, 51);
+}
+
+.section_contact form .btn {
+    border: none;
+    box-shadow: none;
+    background-color: rgb(243, 51, 51);
+    color: white;
+}
+
+.section_contact form .btn:hover {
+    cursor: pointer;
 }
