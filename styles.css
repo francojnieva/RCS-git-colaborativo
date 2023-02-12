@@ -5,6 +5,25 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.landing-page img {
+width: 150px;
+height: 250px;
+padding: 10px;
+margin: 5px;
+
+}
+
+.card-text{
+    
+    width: 150px;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: left;
+    border-color: rgba(14, 7, 7, 0.63);
+    border-style:groove;
+    border-radius: 5%;
+}
 .section_contact {
     display: flex;
     justify-content: center;
