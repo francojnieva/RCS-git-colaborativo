@@ -5,12 +5,16 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.landing-page img {
+.container-landing-page{
+    display: flex;
+    justify-content: center;
+}
+
+.container-landing-page img {
 width: 150px;
 height: 250px;
 padding: 10px;
 margin: 5px;
-
 }
 
 .card-text{
