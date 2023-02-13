@@ -8,25 +8,26 @@
 .container-landing-page{
     display: flex;
     justify-content: center;
+    align-items:baseline;
 }
 
 .container-landing-page img {
-width: 150px;
-height: 250px;
+width: 140px;
+height: 180px;
 padding: 10px;
 margin: 5px;
 }
 
 .card-text{
-    
+    background-color: aliceblue;
     width: 150px;
     padding: 10px;
     margin: 5px;
     display: flex;
     justify-content: left;
-    border-color: rgba(14, 7, 7, 0.63);
+    border-color: rgb(243, 51, 51);
     border-style:groove;
-    border-radius: 5%;
+    border-radius: .2em;
 }
 .section_contact {
     display: flex;
