@@ -79,3 +79,53 @@ margin: 5px;
 .section_contact form .btn:hover {
     cursor: pointer;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(72 65 65 / 70%);
+    height: 32vh;
+}
+
+.cont-title-github {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.cont-title-github p {
+    font-weight: bold;
+    font-size: 24px;
+    color: white
+}
+
+.cont-repository {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont-a {
+    background-color: rgb(243, 51, 51);
+    padding: 10px;
+    border-radius: 0.2rem;
+}
+
+.cont-a:hover {
+    cursor: pointer;
+}
+
+.cont-a a {
+    text-decoration: none;
+    color: white;
+}
+
+.cont-copyright {
+    text-align: center;
+    padding-top: 4%;
+}
+
+.cont-copyright p {
+    color: white;
+    font-size: 20px;
+}
+
