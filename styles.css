@@ -1,6 +1,7 @@
 body {
     max-width: 100vw;
     background-color: rgb(250, 170, 170);
+    margin: auto;
 }
 
 ul {
@@ -11,7 +12,46 @@ li {
     font-size: 20px;
     color: rgb(50, 5, 5);
 }
-. container-navbar {
-    height: 10vh;
-    background-color: rgb(83, 6, 6);
+.container-navbar {
+    height: 15vh;
+    background-color: rgb(153, 8, 8);
+    display: flex;
+    justify-content: space-between;
+
+   
+}
+.color1 {
+    color: rgba(231, 226, 226);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-decoration: none;
+  
+   
+    
+}
+ul li :hover{
+    background-color: rgb(80, 16, 208);
+}
+
+.color2 {
+    color:rgb(231, 226, 226);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    
+    
+    
+}
+.container-links {
+    display: flex;
+}
+.size {
+    width: 15px;
+}
+.clase {
+    justify-content: space-between;
+    margin-inline-start: auto;
+    margin-top: 10px;
+    
+}
+.size { 
+    width: 15px;
 }
