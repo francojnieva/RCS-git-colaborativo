@@ -11,3 +11,23 @@ li {
     font-size: 20px;
     color: rgb(50, 5, 5);
 }
+
+/* FOOTER  */
+
+footer {
+    background-color: brown;
+    height: 40vh;
+}
+
+.cont-title-github {
+    text-align: center;
+}
+
+.cont-repository {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont-copyright {
+    text-align: center;
+}
