@@ -5,22 +5,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link href="./styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
     <title>Repaso Git-Github-HTML-CSS</title>
 </head>
 
 <body>
-  <nav class="container-navbar">
-
-    <ul class="clase">
-      
-       <li > <img  class="size"src="./images/home1.jpg" alt=""><a  class = "color1" href="./pages/home.html">Home </a></li>
+  <header>
+    <nav>
+      <ul>
+        <li> <a href="#contact"> Contacto </a></li>
+        <li> <a class="home" href="#home"> Inicio</a></li>
        
-     <li> <img class= "size"src="./images/contact.png" alt=""><a class="color2" href="./pages/contact.html">Contact</a></li>
-    </ul>
-    
-  </nav>
-  
+      </ul>
+    </nav>
+  </header>
+    <main>
+        <section class="container-landing-page" id="home">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/WhatsApp Image 2023-02-12 at 22.43.16.jpeg" class="card-img-top" alt="Martin">
+                <div class="card-body">
+                  <p class="card-text">Martín Aballay. 25 años. Soy músico. Conocimientos y experiencias en marketing digital, estrategias de ventas, grabación y producción musical. Dirijo, además, un emprendimiento comercial en el cual me desempeño como vendedor, diseñador, planificador y fabricante.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/1672346060530.jpg" class="card-img-top" alt="Franco">
+                <div class="card-body">
+                  <p class="card-text">Franco Nieva. 26 años. Me gusta escuchar música. Soy de la provincia de Tucumán, estudiante full stack developer. Apasionado por el mundo IT. </p>
+                </div>               
+            </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/WhatsApp Image 2023-02-12 at 23.11.32.jpeg" class="card-img-top" alt="Daniela">
+                <div class="card-body">
+                  <p class="card-text">Daniela Quiroga. 21 años. Me gusta escuchar música. Estudiante de la UTN-FRT, maestra particular, estudiante de full stack en Rolling Code y ciclista.</p>
+                </div>               
+            </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/_DSC3653 (1)1C.png" class="card-img-top" alt="Pablo">
+                <div class="card-body">
+                  <p class="card-text">Pablo Díaz. 44 años. Juego al paddle y me gusta ver series. Soy un gastrónómico aprendiendo del mundo de la programación.  </p>
+                </div>               
+            </div>
+        </section>
+        <section class="section_contact" id="contact">
+            <form action="#" method="post">
+                <h2>Contacto</h2>
+                <label for="name"></label>
+                <input type="text" name="name" id="name" placeholder="Nombre" required autocomplete="off">
+                <label for="lastname"></label>
+                <input type="text" name="lastname" id="lastname" placeholder="Apellido" required    autocomplete="off">
+                <label for="email"></label>
+                <input type="email" name="email" id="email" required placeholder="Dirección de correo electrónico" autocomplete="off">
+                <label for="message"></label>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje" autocomplete="off"></textarea>
+                <input type="submit" value="Enviar" class="btn">
+            </form>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        <div class="cont-title-github">
+            <p>Repositorios GitHub</p>
+        </div>
+        <div class="cont-repository">
+            <div class="cont-a">
+                <a href="https://github.com/Dizpab" target="_blank">PABLO DÍAZ</a>
+            </div>
+            <div class="cont-a">
+                <a href="https://github.com/DanielaQuiroga15" target="_blank">DANIELA ARTAZA</a>
+            </div>
+            <div class="cont-a">
+                <a href="https://github.com/francojnieva" target="_blank">FRANCO NIEVA</a>
+            </div>
+            <div class="cont-a">
+                <a href="https://github.com/tinchoaballay" target="_blank">MARTÍN ABALLAY</a>
+            </div>
+        </div> 
+        <div class="cont-copyright">
+            <p>Copyright© - Todos los derechos reservados a "Grupo 4 - RSC"</p>
+        </div>   
+    </footer>
 </body>
-
 </html>
